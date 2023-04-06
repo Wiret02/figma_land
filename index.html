@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figma land</title>
-    <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
+    <link rel="shortcut icon" href="icons/circle-square_icon.png" type="image/x-icon">
 </head>
 <body>
     <header class="header">
-        <nav class="navbar">
+        <nav class="header__navbar navbar">
             <ul class="navbar__list">
                 <li class="navbar__item"><a href="#">Home</a></li>
                 <li class="navbar__item"><a href="#">Product</a></li>
@@ -25,15 +25,15 @@
             </div>
         </nav>
         <h1 class="header__title">The best products<br>start with Figma</h1>
-        <h4 class="header__subtitle">Most calendars are designed for teams. Slate is designed<br>for freelancers</h4>
-        <button class="header__button">Try For Free</button>
+        <h4 class="subtitle">Most calendars are designed for teams. Slate is designed<br>for freelancers</h4>
+        <a href="#" class="header__button">Try For Free</a>
     </header>
     <section class="about" id="about">
-        <div class="about__futures">
-            <h2 class="about__title">Features</h2>
-            <h4 class="about__subtitle">Most calendars are designed for teams.<br>Slate is designed for freelancers</h4>
+        <div class="about__features">
+            <h2 class="title">Features</h2>
+            <p class="subtitle">Most calendars are designed for teams.<br>Slate is designed for freelancers</p>
             <div class="about__wrapper">
-                < class="about__item">
+                <div class="about__item">
                     <img src="icons/circle-square_icon.png" class="about__item_icon" alt="circle-square_icon">
                     <h3 class="about__item_title">OpenType features Variable fonts</h3>
                     <p class="about__item_text">Slate helps you see how many more days you need to work to reach your financial goal.</p>
@@ -53,19 +53,18 @@
         </div>
         <div class="about__way">
             <div class="about__wrapper">
-                <h2 class="about__title">Fastest way to organize</h2>
-                <h4 class="about__subtitle">Most calendars are designed for teams.<br>Slate is designed for freelancers</h4>
-                <button class="about__button">Try For Fre</button>
+                <h2 class="title">Fastest way to organize</h2>
+                <h4 class="subtitle">Most calendars are designed for teams.<br>Slate is designed for freelancers</h4>
+                <a href="#" class="about__button">Try For Fre</a>
             </div>
-            <img src="img/futures_demonstration.png" alt="" class="about__demonstration">
+            <img src="img/futures_demonstration.png" alt="LapTop with demo" class="about__demonstration">
         </div>
         <div class="about__prototyping">
-            <img src="img/futures_illustration.png" alt="" class="about__ilustration">
+            <img src="img/futures_illustration.png" alt="Illustration" class="about__ilustration">
             <div class="about_wrapper">
-                <h3>At your fingertips</h3>
-                <h2 class="about__title">Lightning fast prototyping </h2>
-                <h3>Subscribe to our Newsletter</h3>
-                <h3 class="about__item_title">Subscribe to our Newsletter</h3>
+                <p>At your fingertips</p>
+                <h2 class="title">Lightning fast prototyping </h2>
+                <p class="about__item_title">Subscribe to our Newsletter</p>
                 <p class="about__item_text">Available exclusivery on Figmaland</p>
                 <form class="about__form">
                     <input type="email" id="email" placeholder="Your Email" >
@@ -74,44 +73,113 @@
             </div>
         </div>
         <div class="about__partners">
-            <h2 class="about__title">Partners</h2>
-                <h4 class="about__subtitle">Most calendars are designed for teams.<br>Slate is designed for freelancers</h4>
-                <div class="about__wrapper-partners">
-                    <div class="about__item-partners">
-                        <h5>Client Name</h5>
-                        <img src="icons/google_logo.png" alt="google logo" class="about__item_logo">
-                    </div>
-                    <div class="about__item-partners">
-                        <h5>Client Name</h5>
-                        <img src="icons/amazon_logo.png" alt="amazon logo" class="about__item_logo">
-                    </div>
-                    <div class="about__item-partners">
-                        <h5>Client Name</h5>
-                        <img src="icons/microsoft_logo.png" alt="microsoft logo" class="about__item_logo">
-                    </div>
-                    <div class="about__item-partners">
-                        <h5>Client Name</h5>
-                        <img src="icons/uber_logo.png" alt="uber logo" class="about__item_logo">
-                    </div>
-                    <div class="about__item-partners">
-                        <h5>Client Name</h5>
-                        <img src="icons/dropbox_logo.png" alt="dropbox logo" class="about__item_logo">
-                    </div>
-                    <div class="about__item-partners">
-                        <h5>Client Name</h5>
-                        <img src="icons/google_logo.png" alt="google logo" class="about__item_logo">
-                    </div>
-                    <div class="about__item-partners">
-                        <h5>Client Name</h5>
-                        <img src="icons/amazon_logo.png" alt="amazon logo" class="about__item_logo">
-                    </div>
-                    <div class="about__item-partners">
-                        <h5>Client Name</h5>
-                        <img src="icons/uber_logo.png" alt="uber logo" class="about__item_logo">
+            <h2 class="title">Partners</h2>
+            <p class="subtitle">Most calendars are designed for teams.<br>Slate is designed for freelancers</p>
+            <div class="about__wrapper-partners">
+                <div class="about__item-partners">
+                    <h5>Client Name</h5>
+                    <img src="icons/google_logo.png" alt="google logo" class="about__item_logo">
+                </div>
+                <div class="about__item-partners">
+                    <h5>Client Name</h5>
+                    <img src="icons/amazon_logo.png" alt="amazon logo" class="about__item_logo">
+                </div>
+                <div class="about__item-partners">
+                    <h5>Client Name</h5>
+                    <img src="icons/microsoft_logo.png" alt="microsoft logo" class="about__item_logo">
+                </div>
+                <div class="about__item-partners">
+                    <h5>Client Name</h5>
+                    <img src="icons/uber_logo.png" alt="uber logo" class="about__item_logo">
+                </div>
+                <div class="about__item-partners">
+                    <h5>Client Name</h5>
+                    <img src="icons/dropbox_logo.png" alt="dropbox logo" class="about__item_logo">
+                </div>
+                <div class="about__item-partners">
+                    <h5>Client Name</h5>
+                    <img src="icons/google_logo.png" alt="google logo" class="about__item_logo">
+                </div>
+                <div class="about__item-partners">
+                    <h5>Client Name</h5>
+                    <img src="icons/amazon_logo.png" alt="amazon logo" class="about__item_logo">
+                </div>
+                <div class="about__item-partners">
+                    <h5>Client Name</h5>
+                    <img src="icons/uber_logo.png" alt="uber logo" class="about__item_logo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <h2 class="title">Testimonials</h2>
+        <img src="icons/ibm_logo.png" alt="company logo" class="testimonials__logo">
+        <p class="subtitle">Most calendars are designed for teams.<br>Slate is designed for freelancers</p>
+        <div class="testimonials__person person">
+            <img src="img/ui_designer.png" alt="person photo" class="person__photo">
+            <div class="person__wrapper">
+                <div class="person__name">Organize across</div>
+                <div class="person__position">UI designer</div>
+            </div>
+        </div>
+        <a href="#" class="testimonials__button">More Testimonials</a>
+    </section>
+    <section class="pricing">
+        <h2 class="title">Pricing</h2>
+        <p class="subtitle">Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</p>
+        <div class="pricing__card card">
+            <div class="card__item">
+                <div class="card__type">Free</div>
+                <p class="card__text">Organize across all apps by hand</p>
+                <div class="card__price price">
+                    <div class="price_value">0</div>
+                    <div class="price__wrapepr">
+                        <div class="price_sysmbol">$</div>
+                        <div class="price_period">Per Month</div>
                     </div>
                 </div>
+                <p class="card__feature">Pricing Feature</p>
+                <p class="card__feature">Pricing Feature</p>
+                <p class="card__feature">Pricing Feature</p>
+                <p class="card__feature">Pricing Feature</p>
+                <p class="card__feature">Pricing Feature</p>
+                <a href="#" class="card__button">Order Now</a>
+            </div>
+            <div class="card__item-modyfied">
+                <div class="card__type-modyfied">Standart</div>
+                <p class="card__text-modyfied">Organize across all apps by hand</p>
+                <div class="card__price price">
+                    <div class="price_value-modyfied">10</div>
+                    <div class="price__wrapepr">
+                        <div class="price_sysmbol-modyfied">$</div>
+                        <div class="price_period-modyfied">Per Month</div>
+                    </div>
+                </div>
+                <p class="card__feature-modyfied">Pricing Feature</p>
+                <p class="card__feature-modyfied">Pricing Feature</p>
+                <p class="card__feature-modyfied">Pricing Feature</p>
+                <p class="card__feature-modyfied">Pricing Feature</p>
+                <p class="card__feature-modyfied">Pricing Feature</p>
+                <a href="#" class="card__button-modyfied">Order Now</a>
+            </div>
+            <div class="card__item">
+                <div class="card__type">Business</div>
+                <p class="card__text">Organize across all apps by hand</p>
+                <div class="card__price price">
+                    <div class="price_value">99</div>
+                    <div class="price__wrapepr">
+                        <div class="price_sysmbol">$</div>
+                        <div class="price_period">Per Month</div>
+                    </div>
+                </div>
+                <p class="card__feature">Pricing Feature</p>
+                <p class="card__feature">Pricing Feature</p>
+                <p class="card__feature">Pricing Feature</p>
+                <p class="card__feature">Pricing Feature</p>
+                <p class="card__feature">Pricing Feature</p>
+                <a href="#" class="card__button">Order Now</a>
+            </div>
         </div>
-         
     </section>
     <footer>
 
